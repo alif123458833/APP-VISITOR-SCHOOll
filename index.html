@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelawat Sekolah SMKAHMY</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: orange;
+        }
+
+        header{
+            background: #ff8c00;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1{
+            font-size: 35px;
+        }
+
+        .container{
+            width: 90%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .card{
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            color: darkorange;
+            margin-bottom: 10px;
+        }
+
+        p{
+            line-height: 1.8;
+        }
+
+        .btn{
+            background: blue;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 18px;
+        }
+
+        .btn:hover{
+            background: darkblue;
+        }
+
+        iframe{
+            width: 100%;
+            height: 350px;
+            border-radius: 15px;
+            border: none;
+        }
+
+        footer{
+            text-align: center;
+            background: #ff8c00;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>SELAMAT DATANG KE PELAWAT SEKOLAH</h1>
+        <p>SMKA Haji Mohd Yassin (SMKAHMY)</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>Info Sekolah</h2>
+            <p>
+                Sekolah Menengah Kebangsaan Agama Haji Mohd Yassin 
+                merupakan sebuah sekolah agama yang terletak di Johor.
+                Sekolah ini menyediakan pendidikan akademik dan agama
+                untuk melahirkan pelajar cemerlang.
+            </p>
+
+            <a href="#" class="btn">Maklumat Pelawat</a>
+        </div>
+
+        <div class="card">
+            <h2>Lokasi Sekolah</h2>
+
+            <iframe 
+            src="https://maps.google.com/maps?q=smka%20haji%20mohd%20yassin&t=&z=15&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+
+            <a href="https://maps.google.com/?q=SMKA+Haji+Mohd+Yassin" 
+            target="_blank" class="btn">
+            Buka Google Maps
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        © 2026 Pelawat Sekolah SMKAHMY
+    </footer>
+
+</body>
+</html>
